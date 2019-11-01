@@ -1,0 +1,26 @@
+<% if current_user %>
+  Logged in as <%= current_user.email %>.
+  <%= link_to "Log Out", logout_path %>
+<% else %>
+  <%= link_to "Sign Up", signup_path %> or
+  <%= link_to "Log In", login_path %>
+<% end %>
+
+<p id="notice"><%= notice %></p>
+
+<h1>Some great content</h1>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper ac nulla at semper. Donec auctor accumsan mi, ut pulvinar felis euismod vitae. Quisque nisi eros, volutpat eu tortor congue, aliquam dapibus elit. Duis eget sapien id lacus euismod sodales non id libero. In ac dui vitae sapien rutrum scelerisque. Quisque ultrices, enim ac molestie cursus, erat turpis condimentum felis, non efficitur nisl tellus in sem. Nullam vel mollis libero, et venenatis quam.
+</p>
+<p>
+Sed malesuada erat id odio feugiat ornare. Morbi nisi purus, faucibus at justo id, congue semper nunc. Nam fringilla nisi at nulla hendrerit, a rhoncus nulla vehicula. Nulla gravida leo mauris, sed facilisis felis elementum et. Vivamus pretium ligula malesuada, consequat velit vitae, vulputate ex. Ut maximus dolor elit, a euismod libero condimentum et. Etiam ullamcorper metus eu finibus fermentum. Pellentesque ac tincidunt ante, et sodales arcu.
+</p>
+<p>
+Aenean ornare in sem ac finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce mi dolor, placerat non dui nec, laoreet egestas mauris. Mauris non velit tellus. Etiam vel sem placerat, consequat augue at, ullamcorper ipsum. Integer et dui placerat, lacinia enim sed, venenatis eros. Aliquam suscipit est sed vestibulum faucibus. Etiam non sagittis augue. Nam sodales quis sapien et fermentum. Aenean augue nulla, ultricies eget ornare eget, fringilla id nunc. Praesent iaculis mauris nulla, nec commodo enim accumsan non. Integer sed ante eu arcu venenatis elementum quis id orci.
+</p>
+<p>
+Aliquam laoreet leo eu urna imperdiet congue. Vivamus ac interdum ante. Aenean dignissim metus quis risus pellentesque luctus. Morbi vel diam vitae elit porta dapibus sed in est. Aenean tempus enim quis ex semper varius. In congue mi a urna porta, vitae dictum ante rutrum. Mauris maximus nunc risus, id varius augue auctor vitae. Phasellus malesuada ut nulla sed mattis. Duis vitae lacus nec velit ullamcorper fringilla quis et erat. Integer condimentum nulla nisi, non aliquam mi iaculis in. Mauris tempus tempor semper. Nam tincidunt nisl a bibendum luctus. Donec aliquet nunc at purus mollis consequat. In hac habitasse platea dictumst.
+</p>
+<p>
+Cras vulputate urna a risus lacinia, eu lobortis nulla maximus. In dignissim massa et metus efficitur, vitae imperdiet velit placerat. Aenean at varius libero. Duis tempor felis leo. Cras iaculis, sapien auctor sagittis convallis, leo lacus euismod neque, vel fermentum turpis turpis vel tortor. Etiam dapibus ante sed rutrum tincidunt. Donec rhoncus feugiat erat a accumsan. Nullam eget risus non nunc rutrum feugiat. Suspendisse eu ligula malesuada, interdum risus vitae, porta justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas finibus ante quam, eu posuere leo mattis hendrerit. Nunc ac fringilla odio.
+</p>
